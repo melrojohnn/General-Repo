@@ -4,7 +4,7 @@
     Base64Credentials = Binary.ToText(Text.ToBinary(Username & ":" & Password), BinaryEncoding.Base64),
 
     // Função para obter dados do Jira
-    Jql = "project=TES",  // Modifique isso com a chave real do seu projeto
+    Jql = "project=key",  // Modifique isso com a chave real do seu projeto
     Fields = "summary,key,issuetype,status,assignee,created",  // Adicione campos conforme necessário
     StartAt = "0",
     MaxR = "100",
