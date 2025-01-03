@@ -17,7 +17,7 @@ Execução:
     ./hello.py
 """
 __version__ = "0.1.2"
-__author__ = "Bruno Rocha"
+__author__ = "Johnnes Melro"
 __license__ = "Unlicense"
 
 import os
